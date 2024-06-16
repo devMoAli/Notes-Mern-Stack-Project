@@ -1,0 +1,210 @@
+.forgotPassContainer {
+  width: 400px;
+  height: 420px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  margin-top: 100px;
+  position: relative;
+}
+.forgotPasswordForm {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 30px 20px;
+  box-shadow: 2px 2px 4px rgba(27, 183, 218, 0.393);
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  border: 1px solid rgb(154, 153, 153);
+}
+.passAvatar {
+  position: absolute;
+  width: 100px;
+  height: 90px;
+  overflow: hidden;
+  top: -50px;
+  left: 250px;
+}
+.forgotPassTitle {
+  display: flex;
+  margin: 0 auto;
+}
+.passwordTitle {
+  font-family: "Oswald", sans-serif;
+  text-shadow: 2px 2px 9px #aeaeae;
+  font-size: 25px;
+  color: #106b99ef;
+  font-weight: 900;
+  letter-spacing: 1px;
+  position: relative;
+  display: flex;
+  margin: 5px 10px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.passIcon {
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+}
+.passIcon > svg {
+  animation: pulse 3s linear infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.passIcon::before,
+.passIcon::after {
+  display: none;
+}
+
+.forgotPassInputLabel {
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  align-self: baseline;
+  color: #106b99ef;
+}
+.inputIconForgot {
+  width: 20px;
+  position: absolute;
+  z-index: 99;
+  left: -140px;
+  top: 50%;
+  color: #106b99ef;
+  transform: translateY(-50%);
+  bottom: 12px;
+}
+
+.formEmailInput {
+  width: 300px;
+  display: block;
+  border-radius: 8px;
+  margin: 0 auto !important;
+  margin-bottom: 10px !important;
+  border-radius: 8px;
+  border: 1px solid var(--gray-color);
+  font-size: 14px;
+  height: 50px;
+  padding: 0 0 0 40px;
+  border-radius: 7px;
+  outline: none;
+  border: 1px solid #e5e5e5;
+  filter: drop-shadow(0px 1px 0px #efefef)
+    drop-shadow(0px 1px 0.5px rgba(239, 239, 239, 0.5));
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.formEmailInput:focus {
+  border: 1px solid rgb(41, 191, 30);
+  padding-right: 0;
+  height: 50px;
+  border-radius: 7px;
+}
+
+.form-password-note h5 {
+  margin: 5px;
+  color: grey;
+}
+.form-password-note h6 {
+  margin: 12px 0;
+  color: grey;
+}
+.form-btn {
+  width: 130px;
+  text-align: center;
+  color: white;
+  background-color: #106b99ef;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  padding: 9px;
+  margin-top: 15px;
+  margin-bottom: 20px !important;
+  margin: 10px auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transform: 0.3s ease;
+}
+.form-btn:hover {
+  background-color: #1887beef;
+}
+
+/* 
+
+.form-password-input {
+  width: 300px;
+  display: inline-block;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid var(--gray-color);
+  font-size: 14px;
+}
+.form-reset-label {
+  position: relative;
+  margin-left: 10px;
+  position: relative;
+  font-size: 15px;
+  font-weight: 500;
+  align-self: baseline;
+  color: #106b99ef;
+}
+.form-reset-password-note {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.reset-pass {
+  margin: 0 auto;
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+}
+.form-reset-password-input {
+  width: 220px;
+  display: block;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid var(--gray-color);
+  font-size: 14px;
+} */
+
+/* Media Queries */
+@media (max-width: 430px) {
+  .forgotPasswordForm {
+    width: 90%;
+  }
+  .formEmailInput {
+    width: 80%;
+  }
+}
+@media (max-width: 380px) {
+  .forgotPasswordForm {
+    width: 60%;
+    margin-left: 20px;
+  }
+  .formEmailInput {
+    width: 80%;
+  }
+  .passAvatar {
+    margin-left: -90px !important;
+  }
+}

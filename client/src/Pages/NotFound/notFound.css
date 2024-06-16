@@ -1,0 +1,44 @@
+/* Not Found */
+.not-found {
+  position: relative;
+  display: flex;
+  height: 100vh;
+  margin-top: -200px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(238, 238, 238);
+  min-height: 100vh;
+}
+
+.pnf{
+  font-size: 30px;
+  font-weight: 900;
+  background: linear-gradient(to right, skyblue, orange, skyblue);
+  -webkit-background-clip: text; /* For Safari */
+  -webkit-text-fill-color: transparent; /* For Safari */
+  background-clip: text;
+}
+.not-found-icon {
+  width: 50px;
+  height: 50px;
+}
+.not-found > svg {
+  width: 150px;
+  margin-top: 50px;
+}
+.cat {
+  margin-top: -100px;
+}
+.notFoundLink {
+  display: block;
+  color: white !important;
+  background-color: orange;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.notFoundLink:hover {
+  background-color: rgb(60, 149, 222);
+}

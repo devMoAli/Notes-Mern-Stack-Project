@@ -1,0 +1,147 @@
+/* Nav Right Links */
+.navRightContainer {
+  width: 100%;
+  display: flex;
+}
+.header-right-link {
+  display: flex;
+}
+.header-right-link span {
+  margin-left: 5px;
+}
+a:visited {
+  color: inherit;
+}
+.navRightIcon {
+  font-size: 20px;
+}
+ul.header__option {
+  width: 100%;
+  display: flex;
+  padding: 0%;
+}
+.header__option {
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: row;
+  font-weight: 900;
+  cursor: pointer;
+  z-index: 1;
+}
+.header__optionLineOne {
+  color: rgb(16, 155, 113) !important;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.header__optionLineTwo {
+  font-size: 14px;
+  font-weight: 900;
+  align-items: center;
+  color: rgb(26, 179, 218) !important;
+}
+
+/* Toggle Menu  */
+.nav-toggle-list {
+  display: flex-end;
+}
+.navToggleList {
+  display: none;
+}
+.navToggleListIcon {
+  cursor: pointer;
+}
+.navToggleListIcon:hover {
+  color: rgb(0, 195, 255) !important;
+}
+
+/* user-info */
+.header-right-user-info {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 100px;
+  cursor: pointer;
+  height: 40px;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 7px;
+  color: rgb(233, 123, 13);
+  background: linear-gradient(#e8f1f5, #91b9d5);
+  box-sizing: border-box;
+}
+.header-right-user-info:after {
+  content: "▾";
+  font-size: 20px;
+  position: absolute;
+  right: 6px;
+  top: 5px;
+  color: rgb(255, 150, 3);
+  filter: drop-shadow(1px 1px 1px rgba(184, 121, 71, 0.4));
+  display: block;
+}
+
+.header-right-username {
+  font-family: "Nunito", sans-serif;
+  font-size: 15px;
+  align-items: center;
+  font-weight: 900;
+  padding: 4px;
+  color: rgb(240, 145, 12);
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.header-right-dropdown {
+  position: absolute;
+  display: block;
+  font-size: 15px;
+  right: 1px;
+  top: 130%;
+  width: 100%;
+  padding: 2px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  opacity: 1;
+  text-align: center;
+  transform: rotatey(10deg) rotateX(0deg) translatey(0px);
+  backface-visibility: hidden;
+  background: linear-gradient(#e8f1f5, #91b9d5);
+  border-radius: 10px;
+  transition: all 0.8s;
+  z-index: 999;
+  overflow: hidden;
+}
+.header-dropdown-item {
+  font-weight: 900;
+  font-size: 15px;
+  margin: 2px auto;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+  padding: 4px;
+  width: 100%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(3px 2px 2px rgba(184, 121, 71, 0.4));
+  border: #9cb2b7 1px solid;
+  display: inline-block;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.header-dropdown-item i {
+  margin-right: 6px;
+  margin-left: 5px;
+  font-size: 1.1em;
+}
+.header-dropdown-item:hover {
+  background: #f2c80a;
+  color: white;
+  /* padding-left: 10px;
+  border-radius: 6px; */
+}
+.user-info-dropdown-account {
+  margin-right: 5px;
+  margin-bottom: -3px;
+  align-items: center;
+  filter: drop-shadow(1px 1px 1px rgba(212, 212, 212, 0.4));
+}

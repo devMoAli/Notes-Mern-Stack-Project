@@ -1,0 +1,86 @@
+.button-wrapper {
+  border-radius: 0.375rem;
+  background: linear-gradient(to right, #fbbf24, #fb923c, #3b82f6, #93c5fd);
+  padding: 0.1rem 0.1rem;
+  display: inline-block;
+  height: 80%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.add-note-button-text {
+  display: block;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #93c5fd;
+  outline: none;
+  font-family: "poppins";
+  transition: background-color 0.2s, color 0.2s;
+}
+.add-note-button {
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.2s;
+}
+
+.add-note-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.125rem rgba(66, 153, 225, 0.6);
+}
+
+.add-note-button:hover {
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(1px);
+}
+
+.add-note-button:hover .add-note-button-text {
+  background-color: transparent;
+  color: rgb(239, 162, 9);
+}
+
+.button-wrapper {
+  border-radius: 0.375rem;
+  margin-top: 5px;
+  background: linear-gradient(to right, #fbbf24, #fb923c, #3b82f6, #93c5fd);
+  display: inline-block;
+}
+
+.add-note-button {
+  border-radius: 0.375rem;
+  background: white;
+  cursor: pointer;
+  outline: none;
+  padding: 0.2rem 0.6rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-note-button:focus {
+  outline: none;
+  color: #ef910c;
+  box-shadow: 0 0 0 0.125rem rgba(66, 153, 225, 0.6);
+}
+
+.add-note-button:hover {
+  color: #ef910c;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+  transform: translateY(2px);
+}
+
+.add-note-button-text {
+  display: block;
+  border-radius: 0.375rem;
+  font-size: 0.9rem;
+  font-weight: 900;
+  color: #ef910c;
+  font-family: "Poppins", sans-serif;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.add-note-button:hover .add-note-button-text {
+  background-color: transparent;
+}

@@ -1,0 +1,49 @@
+.navbar {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  width: 80%;
+  justify-content: space-between;
+  background-color: #e0eaf6;
+  border-radius: 5px;
+}
+.nav-center{
+  width: 40%;
+}
+
+@media all and (max-width: 670px) {
+  .headerCenter {
+    width: 70%;
+    margin-left: 10px;
+  }
+}
+
+.header__searchIcon {
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #fbbf24;
+  color: white;
+  height: 36px;
+  border-radius: 0 0.375rem 0.375rem 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchIcon {
+  font-size: 1.2rem;
+}
+.header__searchIcon:hover {
+  background-color: rgb(253, 161, 56);
+}
+
+/* User Info Section */
+.headerRightMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

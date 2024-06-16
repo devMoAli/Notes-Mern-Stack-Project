@@ -1,0 +1,21 @@
+
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .welcome-image-container {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .welcome-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px; 
+  }
+  
+  .categories {
+    margin-bottom: 20px;
+  }
