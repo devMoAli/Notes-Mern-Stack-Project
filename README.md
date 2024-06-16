@@ -6,15 +6,19 @@
 ![Full-Stack-Notes-Project](Notes-Project2.gif)
 ![Full-Stack-Notes-Project](Notes-Project3.gif)
 
-# Full Notes Operations:
+#### Full Notes Operations:
 - Create New Note
 - Edit/Update Existing Note
 - Delete Note
 
-# Sort Notes By Categories  
+#### Sort Notes By Categories  
 
-# Search Notes
+#### Search Notes
 
-# Real User Email Authentication Register / Login / Forgot/Reset Password
+#### Real User Email Authentication Register / Login / Forgot/Reset Password
 
-# Secured Routes againts attacks
+#### Secured Routes againts attacks
+
+#### Redux Toolkit State Management
+
+#### MongoDB Database
